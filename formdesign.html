@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form Design</title>
+		<meta charset="UTF-8"/>
+		<style>
+		</style>
+	</head>
+	<body>
+		
+		<form name="feedback" method="post" action="#">
+			
+			<div>
+				<h3>Employee's Name</h3>
+				<table>
+					<tr>
+						<td><input type="text" name="fname" value=""/> </td>
+						<td><input type="text" name="lname" value=""/> </td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>Last Name</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<h3>Employee's Hire Date</h3>
+				
+				<table>
+					<tr>
+						<td>
+							<select name="day">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</td>
+						<td>
+							<select name="month">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</td>
+						<td>
+							<select name="year">
+								<option value="2001">2001</option>
+								<option value="2002">2002</option>
+								<option value="2003">2003</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+			
+			<div>
+				<h3>Employee's Title</h3>
+				<input type="text" name="etitle" value=""/>
+			</div>
+			
+			<div>
+				<h3>Employee's Department</h3>
+				<select name="dept">
+					<option value="mark">Martketting</option>
+					<option value="acc">Accounting</option>
+					<option value="qa">QA</option>
+				</select>
+			</div>
+			
+			<!-- Performance Table -->
+			<div>
+				<h3>Performance Evaluation</h3>
+				<table>
+					<tr>
+						<td></td>
+						<th>Very Good</th>
+						<th>Good</th>
+						<th>Fair</th>
+						<th>Poor</th>
+						<th>Very Poor</th>
+					</tr>
+					<tr>
+						<th>Attendence</th>
+						<td><input type="radio" name="attendence" value="verygood"/></td>
+						<td><input type="radio" name="attendence" value="good"/></td>
+						<td><input type="radio" name="attendence" value="fair"/></td>
+						<td><input type="radio" name="attendence" value="poor"/></td>
+						<td><input type="radio" name="attendence" value="verypoor"/></td>
+					</tr>
+					<tr>
+						<th>Quality of Work</th>
+						<td><input type="radio" name="quality" value="verygood"/></td>
+						<td><input type="radio" name="quality" value="good"/></td>
+						<td><input type="radio" name="quality" value="fair"/></td>
+						<td><input type="radio" name="quality" value="poor"/></td>
+						<td><input type="radio" name="quality" value="verypoor"/></td>
+					</tr>
+					<tr>
+						<th>Quantity of Work</th>
+						<td><input type="radio" name="quantity" value="verygood"/></td>
+						<td><input type="radio" name="quantity" value="good"/></td>
+						<td><input type="radio" name="quantity" value="fair"/></td>
+						<td><input type="radio" name="quantity" value="poor"/></td>
+						<td><input type="radio" name="quantity" value="verypoor"/></td>
+					</tr>
+					<tr>
+						<th>Attitude</th>
+						<td><input type="radio" name="attitude" value="verygood"/></td>
+						<td><input type="radio" name="attitude" value="good"/></td>
+						<td><input type="radio" name="attitude" value="fair"/></td>
+						<td><input type="radio" name="attitude" value="poor"/></td>
+						<td><input type="radio" name="attitude" value="verypoor"/></td>
+					</tr>
+					<tr>
+						<th>Dependablity</th>
+						<td><input type="radio" name="dependablity" value="verygood"/></td>
+						<td><input type="radio" name="dependablity" value="good"/></td>
+						<td><input type="radio" name="dependablity" value="fair"/></td>
+						<td><input type="radio" name="dependablity" value="poor"/></td>
+						<td><input type="radio" name="dependablity" value="verypoor"/></td>
+					</tr>
+					<tr>
+						<th>Work Ethic</th>
+						<td><input type="radio" name="workethic" value="verygood"/></td>
+						<td><input type="radio" name="workethic" value="good"/></td>
+						<td><input type="radio" name="workethic" value="fair"/></td>
+						<td><input type="radio" name="workethic" value="poor"/></td>
+						<td><input type="radio" name="workethic" value="verypoor"/></td>
+					</tr>
+					
+				</table>
+			</div>
+			
+			<div>
+				
+				<h3>Overall, I would rank this emplyee's performance as:</h3>
+				<input type="radio" name="overall-performance" value="verygood"/>Very Good
+				<input type="radio" name="overall-performance" value="verygood"/>Good
+				<input type="radio" name="overall-performance" value="verygood"/>Fair
+				<input type="radio" name="overall-performance" value="verygood"/>Poor
+				<input type="radio" name="overall-performance" value="verygood"/>Very Poor
+			
+			</div>
+			
+			<div>
+				<h3>Please go into more detail why you chose this ranking.</h3>
+				<textarea name="detail-performance" rows="10" cols="80">
+				</textarea>
+			</div>
+			
+			
+			<div>
+				<h3>Supervisors's Name</h3>
+				<table>
+					<tr>
+						<td><input type="text" name="fsupername" value=""/> </td>
+						<td><input type="text" name="lsupername" value=""/> </td>
+					</tr>
+					<tr>
+						<td>First Name</td>
+						<td>Last Name</td>
+					</tr>
+				</table>
+			</div>
+			
+		</form>
+	
+	</body>
+</html>
