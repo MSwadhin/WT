@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE categoryList [
+	<!ELEMENT categoryList (category*)>
+	<!ELEMENT category (#PCDATA)>
+]>
+
+<categoryList>
+	<category>Accessories</category>
+	<category>Gadget</category>
+	<category>Cloths(Mens)</category>
+	<category>Cloths(Women)</category>
+</categoryList>

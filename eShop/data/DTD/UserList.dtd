@@ -1,0 +1,14 @@
+
+<!-- <?xml version="1.0"?> -->
+<!ELEMENT userList (user*)>
+<!ELEMENT user (id,fname,lname,email,password,phone,age,city,type,address)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT address (#PCDATA)>

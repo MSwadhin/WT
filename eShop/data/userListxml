@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE userList SYSTEM "DTD/UserList.dtd">
+<UserList>
+	<User>
+		<ID>1</ID>
+		<fname>a</fname>
+		<lname>a</lname>
+		<email>b</email>
+		<password>c</password>
+		<phone>d</phone>
+		<age>e</age>
+		<city>f</city>
+		<type>g</type>
+		<address>h</address>
+</User>
+</UserList>

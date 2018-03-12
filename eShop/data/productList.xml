@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE productList SYSTEM "DTD/ProductList.dtd">
+<productList>
+	
+	<product>
+		<id>1</id>
+		<name>Watch 235</name>
+		<category>Access</category>
+		<price>20.50</price>
+		<quantity>20</quantity>
+		<offer>20</offer>
+		<picture>nai</picture>
+		<date>today</date>
+		<userId>1</userId>
+		<status>0</status>
+	</product>
+	<product>
+		<id>4</id>
+		<name>jfadl aksf  fsdlka ff klsa fkslf kl fs</name>
+		<category>Access</category>
+		<price>20.50</price>
+		<quantity>20</quantity>
+		<offer>20</offer>
+		<picture>nai</picture>
+		<date>today</date>
+		<userId>1</userId>
+		<status>0</status>
+	</product>
+	<product>
+		<id>5</id>
+		<name>hello world</name>
+		<category>$cat</category>
+		<price>20.30</price>
+		<quantity>10</quantity>
+		<offer>10</offer>
+		<picture>uploads/2018.03.12.00.16.35.jpg</picture>
+		<date>2018-03-12</date>
+		<userId></userId>
+		<status>1</status>
+	</product>
+	<product>
+		<id>6</id>
+		<name>two</name>
+		<category>$cat</category>
+		<price>20</price>
+		<quantity>10</quantity>
+		<offer>0</offer>
+		<picture>2018.03.12.00.17.58.jpg</picture>
+		<date>2018-03-12</date>
+		<userId></userId>
+		<status>1</status>
+	</product>
+	<product>
+		<id>7</id>
+		<name>fdasf</name>
+		<category>Gadget</category>
+		<price>20.5326</price>
+		<quantity>5</quantity>
+		<offer>0</offer>
+		<picture>2018.03.12.00.20.54.jpg</picture>
+		<date>2018-03-12</date>
+		<userId>1</userId>
+		<status>1</status>
+	</product>
+</productList>

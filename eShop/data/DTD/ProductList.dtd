@@ -1,0 +1,13 @@
+<!-- <?xml version="1.0"?> -->
+<!ELEMENT productList (product*)>
+<!ELEMENT product (id,name,category,price,quantity,offer,picture,date,userId,status)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT offer (#PCDATA)>
+<!ELEMENT picture (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT userId (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
