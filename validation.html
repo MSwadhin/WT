@@ -1,0 +1,102 @@
+<!DOCYTPE html>
+<html>
+	<head>
+		<title>Form Validation</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		
+		<form action="#" method="post" name="form1">
+			
+			
+			User id : 
+			<input type="text" id="userId" name="uid"><br>
+			Password :  
+			<input type="password" name="pass" id="password" onblur="validatePassword()"><br>
+			Name : 
+			<input type="text" id="name" name="uname"><br>
+			Address : 
+			<input type="text" id="address" name="addr"><br>
+			Country : 
+			<select name="cntry" id="country">
+				<option value="-1">(Please Select A Country)</option>
+				<option value="0">Bangladesh</option>
+				<option value="1">Japan</option>
+				<option value="2">India</option>
+			</select><br>
+			Zip Code : 
+			<input type="text" name="zcode" id="zip"><br>
+
+
+			E-mail : 
+			<input type="text" name="email" id="mail">
+			<span id="mail-error" class="error-box"></span>
+			<br>
+			
+
+			Sex : 
+			<input type="radio" name="sex" value="male">Male 
+			<input type="radio" name="sex" value="female">Female<br>
+			Language : 
+			<input type="checkbox" name="lang-1">English 
+			<input type="checkbox" name="lang-2">Non-English
+			<br>
+			About :  <br>
+			<textarea name="about-text" id="about" cols="30" rows="10"></textarea>			
+			<br>
+			<input type="submit" value="submit" id="submit">
+
+
+		</form>
+
+
+		<script>
+
+
+
+
+			/*
+			*** E - Mail   Validation
+			*/
+			function validateMail(){
+
+
+				var elem = document.getElementById("mail");
+				var val  = elem.value;
+				var patt = /^\w+@+\w+\.{1}\w+$/;
+				var errBox = document.getElementById("mail-error");
+				// alert( val );
+				if( patt.test( val ) ){
+					errBox.style.display="none";
+					return true;
+				}
+				errBox.innerHTML="Invalid E-mail Address!!";
+				errBox.style.display="block";
+				return false;
+			}
+
+
+
+			function  validatePassword(){
+
+				var elem = document.getElementById("password");
+
+				// USE MATCH FUNC 
+
+
+				// var val  = elem.value;
+				// var patt = /^.*(?=.{6,})(?=.*[a-zA-Z])(?=.*\d)(?=.*[!&$%&? "]).*$/;
+				// if( patt.test( val ) ){
+				// 	alert("Done");
+				// }
+				// else{
+				// 	alert("Not Done");
+				// }
+			}
+
+
+
+		</script>
+
+	</body>
+</html>
