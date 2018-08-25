@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+	
+	<head></head>
+	<body>
+		<input style="height:100px;widht:300px;color:red;font-size: 32px;" type="text" id="numberHolder">
+		<div id="outputDiv" style="height:100px;widht:300px;color:red;font-size: 32px;"></div>
+		<button id="convertButton" href="#" onclick="convertAction()">Convert</button>
+
+
+		<script>
+
+
+			// function to convert integer to string [ as excel column names ]
+			function convertIntToString( N ){
+				
+				if( N<1 )return "";
+				var name = "";
+				var b=26,r;
+				var chr;
+				while(N>0){
+					r = Math.floor( (N-1)%b );
+					chr = String.fromCharCode( 65+r );
+					name += chr;
+					N = Math.floor( (N-r)/b );
+				}
+				name = name.split("").reverse().join(""); // reversing found string
+				return name;
+			}
+
+
+
+			// Action Function
+			function convertAction(){
+				var n = parseInt( document.getElementById("numberHolder").value );
+				var cn = convertIntToString( n );
+				document.getElementById("outputDiv").innerHTML = cn;
+			}
+
+
+		</script>
+
+	</body>
+</html>
