@@ -1,0 +1,106 @@
+
+
+
+
+h2{
+	font-size: 26px;
+	margin:16px;
+}
+h3,h4,h5{
+	margin:16px;
+}
+
+#lineHolder{
+	border:1px solid blue;
+}
+
+
+/*
+*
+* Header
+*/
+
+#header{
+	height: 60px;
+	background: lightgray;
+
+}
+.logo-text{
+	color:blue;
+	font-size: 28px;
+}
+
+
+body{
+	font-size: 16px;
+
+}
+
+input{
+	line-height: 1.2em;
+	margin:10px;
+}
+
+
+.btn,.btn-red{
+	display: inline-block;
+	padding: 6px;
+	border:1px solid gray;
+	background: black;
+	border-radius: 10px;
+}
+
+.btn{
+	color:white;
+}
+
+.btn-red{
+	color:white;
+}
+
+
+/*
+*
+* Home Page
+*/
+
+.product-thumb{
+	height: 320px;
+	width: 100%;
+}
+
+
+
+
+
+/*
+* SideBar
+*/
+
+.sidebar{
+	height:100%;
+	/*background: gray;*/
+	border-right: 1px solid gray;
+}
+
+
+
+/*
+* Cart
+*/
+
+#cart-holder{
+	width: 60%;
+	margin: auto;
+	margin-top: 120px;
+}
+.cart-row{
+	border: 1px solid gray;
+}
+
+
+
+#canvas{
+	background: white;
+	height:350px;
+}

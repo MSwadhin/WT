@@ -1,0 +1,28 @@
+.row{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align:center;
+	height: auto;
+}
+
+.row:after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+
+.full{
+	width: 100%;
+}
+
+.fw{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+}
+
+.padding-h{
+	padding-top:1.5em;
+	padding-bottom:1em;
+}
