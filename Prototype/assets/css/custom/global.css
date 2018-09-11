@@ -1,0 +1,37 @@
+*{
+	font-size: inherit;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	transition:all 0.35s;
+	-webkit-transition:all 0.35;
+	-moz-transition:all 0.35s;
+	-o-transition:all 0.35s;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: 1.49;
+}
+
+
+
+
+
+.center{
+	margin:auto;
+}
+
+
+/*
+* styling classes
+*/
+/* general box shadow class [open for modification] */
+.box-shadow{
+	box-shadow: 5px 5px 30px 5px rgba(0,0,0,0.15);
+}

@@ -1,0 +1,40 @@
+.slider-container{
+	margin: 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.55);
+}
+
+.slider-text-layer{
+	padding:5em 2em;
+}
+
+.slider-text-layer *{
+	margin: 1em;
+}
+
+.slider-title{
+	font-size: 5em;
+	font-weight: 900;
+}
+
+.slider-text{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+.slider-1 .slider-title{
+	color:white;
+}
+.slider-1 .slider-text{
+	color:rgb(225,225,225);
+}
+
+#slider-1{
+	margin-top: 82px;
+}

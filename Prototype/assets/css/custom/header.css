@@ -1,0 +1,121 @@
+
+/*
+*
+* Common For All Headers
+*/
+header{
+	margin:0px;
+	padding:0px;
+
+}
+
+.logo{ height:68px; }
+
+
+.primary-menu li > a{
+	font-weight: 700;
+	font-size: 1em;
+	text-decoration: none;	
+	text-transform: uppercase;
+	transition: all 0.5s;
+	-webkit-transition:all 0.5s;
+	border-radius: 0px;
+}
+.primary-menu li{
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+[class *= "sub-menu"]{
+	font-size: 1em;
+	margin:0px;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+[class *= "sub-menu"] li{
+	width: auto;
+	padding:0.5em 1em;
+}
+[class *= "sub-menu"] li a{
+	display: inline-block;
+	width: auto;
+	max-width: 180px;
+}
+
+/* submenu show/hide  */
+#project-sub-menu{
+	display: none;
+}
+#project-submenu-trigger:hover #project-submenu{
+	display: block;
+}
+#service-sub-menu{
+	display: none;
+}
+#service-submenu-trigger:hover #service-submenu{
+	display: block;
+}
+/*  this is for fixing the submenu position   */
+.primary-menu > li{
+	/*padding: 16px 0px;*/
+	padding-top: 2em;
+	padding-bottom: 2em
+}
+
+
+@media screen and (max-width: 991px) {
+	.primary-menu > li{
+		/*padding: 16px 0px;*/
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+	}
+}
+
+
+
+/*  
+** Header 1
+*/
+.header-1{
+	background: rgba(255,255,255,1);
+	/*border-bottom: 1px solid rgba(255,255,255,0.01);*/
+}
+.header-1 .primary-menu li > a{
+	color:black;
+}
+.header-1 [class*="sub-menu"] li > a{
+	color:black;
+}
+.header-1 [class*="sub-menu"]{
+	background: rgba(255,255,255,1);
+}
+.service-sub-menu li a{
+	width: 186px;
+}
+
+
+
+
+/*  
+** Header 2
+*/
+.header-2{
+	background: rgba(255,255,255,0.95);
+	/*border-bottom: 1px solid rgba(255,255,255,0.01);*/
+}
+.header-2 .primary-menu li > a{
+	color:gray;
+}
+.header-2 [class*="sub-menu"] li > a{
+	color:gray;
+}
+.header-2 [class*="sub-menu"] li > a:hover,.header-2 .primary-menu li > a:hover{
+	color:black;
+}
+
+.header-2 [class*="sub-menu"]{
+	background: rgba(255,255,255,0.95);
+}
+.service-sub-menu li a{
+	width: 186px;
+}
